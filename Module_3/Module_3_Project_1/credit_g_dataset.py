@@ -12,7 +12,7 @@ from correlation_feature_selection import sort_feature_by_relevance
 
 def get_preprocessed_credit_g_dataset():
     # Load version 3 of the dataset credit-g
-    X, y = fetch_openml(name='credit-g', version=3, parser='auto',return_X_y=True)
+    X, y = fetch_openml(name='credit-g', version=1, parser='auto',return_X_y=True)
     print(type(X))
     print(type(y))
     print(X)
@@ -102,8 +102,8 @@ def get_preprocessed_credit_g_dataset():
     ## Select only numerical features
     # relevance_th=0.05, redundancy_th=0.5
     # relevance_th=0.2, redundancy_th=1
-    relevance_th = 0.2
-    redundancy_th = 1
+    relevance_th = 0.00
+    redundancy_th = 1.00
     X_continuous = X_train.values[:,num_feature_flags]
     continuous_feat_names = np.array(feat_names)[num_feature_flags]
     X_continuous_slct, continuous_feat_names_slct, continuous_feature_relevance = get_relevant_non_redundant_features(X_continuous, y_train, continuous_feat_names, relevance_th=relevance_th, redundancy_th=redundancy_th, plot=True)
@@ -115,8 +115,8 @@ def get_preprocessed_credit_g_dataset():
     ## Select only categorical features
     # relevance_th=0.15, redundancy_th=0.17
     # relevance_th=0.2, redundancy_th=1
-    relevance_th = 0.2
-    redundancy_th = 1
+    relevance_th = 0.0
+    redundancy_th = 1.00
     X_categorical = X_train.values[:,np.logical_not(num_feature_flags)]
     categorical_feat_names = np.array(feat_names)[np.logical_not(num_feature_flags)]
     X_categorical_slct, categorical_feat_names_slct, categorical_feature_relevance = get_relevant_non_redundant_features(X_categorical, y_train, categorical_feat_names, relevance_th=relevance_th, redundancy_th=redundancy_th, plot=True)
