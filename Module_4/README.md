@@ -6,8 +6,6 @@
 
 ### Module_4_Project_2, Product Demand Forecast
 ![Alt text](Module_4_Project_2/Product_Demand_Forecasts_by_Product_Category.png "")
-![Alt text](Module_4_Project_2/Product_Demand_Forecasts_by_Product_Code.png "")
-
 
 ### Module_4_Project_3, Predict how much health insurance premiums cost using different regression models
 ![Alt text](Module_4_Project_3/NumericalFeatures_vs_InsuranceCost_Correlation.png "Numerical Features and their correlation with the Insurance Cost")
