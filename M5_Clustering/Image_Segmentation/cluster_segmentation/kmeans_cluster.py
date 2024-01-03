@@ -33,6 +33,7 @@ def kmeans_cluster(img):
         k = inertias_log['k'][i]                  
         inertia_desc = (last_inertia-current_inertia) > 0
         inertia_decrease_th = ((last_inertia-current_inertia)/last_inertia) > 0.05
+        last_inertia = current_inertia
 
         #print("K = ", k)
         #print("current_inertia = ", current_inertia)
@@ -41,11 +42,7 @@ def kmeans_cluster(img):
 
         if inertia_desc and inertia_decrease_th:
             best_k = k
-        else:
-            #print("Inertia not decreasing anymore at k = ", k)
-            break
-        
-        last_inertia = current_inertia
+      
 
     best_model = KMeans(n_clusters=best_k, init='k-means++', n_init='auto', max_iter=1000).fit(flat_image)
     #best_model = find_best_k_means_model(flat_image)
