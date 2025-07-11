@@ -30,6 +30,7 @@ ML_Projects/
 ├── M7_ANN/                       # Artificial Neural Networks
 ├── M8_CNN/                       # Convolutional Neural Networks
 ├── M8_RNN/                       # Recurrent Neural Networks
+├── M9_LLM/                       # Large Language Models & Transformers
 └── Interpretable_ML/             # Model interpretability
 ```
 
@@ -145,6 +146,13 @@ Advanced image segmentation using K-Means and Mean-Shift clustering algorithms.
 - Shakespeare Sonnet Generation
 - Tweet Sentiment Analysis
 
+### 🤖 M9_LLM
+**Large Language Models & Transformers**
+- BERT-based Semantic Search Engine
+- Shakespeare Text Analysis
+- Emotion Text Classification
+- Advanced NLP Techniques
+
 ### 🔍 Interpretable_ML
 **Model Interpretability**
 - SHAP Values for Classification
@@ -166,7 +174,8 @@ Advanced image segmentation using K-Means and Mean-Shift clustering algorithms.
 - **Data Science**: Pandas, NumPy, Scikit-learn
 - **Visualization**: Matplotlib, Seaborn
 - **Machine Learning**: Scikit-learn, Imbalanced-learn, Optuna
-- **Deep Learning**: TensorFlow 2.15
+- **Deep Learning**: TensorFlow 2.15, PyTorch
+- **Large Language Models**: 🤗 Transformers, BERT, GPT models
 - **Interpretability**: SHAP
 - **Development**: Poetry, Git
 
