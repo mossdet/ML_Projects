@@ -2,18 +2,7 @@
 
 This repo collects problems solved using different ml models. it serves as a reference for myself and I'm happy if anybody else also finds it helpful.
 
-## 📋 Table of Contents
-- [Overview](#overview)
-- [Project Structure](#project-structure)
-- [Getting Started](#getting-started)
-- [Module Descriptions](#module-descriptions)
-- [Key Features](#key-features)
-- [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-
-## 📁 Index
+## 📁 Overview 
 
 ```
 ML_Projects/
@@ -154,15 +143,7 @@ Advanced image segmentation using K-Means and Mean-Shift clustering algorithms.
 - SHAP Values for Classification
 - SHAP Values for Regression
 - Breast Cancer Data Interpretability
-
-## ✨ Key Features
-
-- **Comprehensive Coverage**: From basic Python to advanced deep learning
-- **Real-world Datasets**: Practical projects with industry-relevant data
-- **Multiple Algorithms**: Extensive coverage of ML algorithms and techniques
-- **Visualization**: Rich visualizations and analysis plots
-- **Interpretability**: Focus on understanding model decisions
-- **Best Practices**: Clean code structure and documentation
+- 
 
 ## 🛠️ Technologies Used
 
