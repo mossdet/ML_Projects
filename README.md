@@ -1,6 +1,6 @@
 # 🧠 Machine Learning Projects Portfolio
 
-A comprehensive collection of machine learning projects covering various algorithms, techniques, and applications from basic Python programming to advanced deep learning models.
+This repo collects problems solved using different ml models. it serves as a reference for myself and I'm happy if anybody else also finds it helpful.
 
 ## 📋 Table of Contents
 - [Overview](#overview)
@@ -13,11 +13,7 @@ A comprehensive collection of machine learning projects covering various algorit
 - [Usage](#usage)
 - [Contributing](#contributing)
 
-## 🔍 Overview
-
-This repository contains a structured learning path through machine learning concepts, from foundational Python programming to advanced neural networks. Each module builds upon previous knowledge and includes practical projects with real-world datasets.
-
-## 📁 Project Structure
+## 📁 Index
 
 ```
 ML_Projects/
