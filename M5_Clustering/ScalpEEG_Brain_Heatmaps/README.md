@@ -1,6 +1,6 @@
 # ScalpEEG Brain Heatmaps: Visualization of HFO activity using brain templates
 
-<img src="M5_Clustering/ScalpEEG_Brain_Heatmaps/Output/Norm_Across_Age_Groups/B_1_3to5yrs_brain_regions_cmap_normalized_across_age_groups.png" alt="HFO Brain Heatmap Example" width="600">
+<img src="Output/Norm_Across_Age_Groups/B_1_3to5yrs_brain_regions_cmap_normalized_across_age_groups.png" alt="HFO Brain Heatmap Example" width="600">
 
 This project uses **K-Means clustering** to segment brain templates and visualize High-Frequency Oscillation (HFO) activity patterns across different age groups using scalp EEG data.
 
