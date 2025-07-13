@@ -11,6 +11,7 @@ graph TD
     A --> C[Module_5_Project_1]
     A --> D[Module_5_Project_2]
     A --> E[Module_5_Project_3]
+    A --> F[ScalpEEG_Brain_Heatmaps]
     
     B --> B1[🖼️ Computer Vision Clustering]
     B --> B2[K-Means Implementation]
@@ -29,15 +30,25 @@ graph TD
     E --> E2[Portfolio Analysis]
     E --> E3[Risk Assessment]
     
+    F --> F1[🧠 Brain Template Segmentation]
+    F --> F2[HFO Activity Mapping]
+    F --> F3[Developmental Analysis]
+    F --> F4[Medical Imaging Clustering]
+    
     B --> B5[Visualization Results]
     B5 --> B6[K-Means Segmentation]
     B5 --> B7[Mean-Shift Results]
+    
+    F --> F5[Neuroimaging Results]
+    F5 --> F6[Brain Heatmaps]
+    F5 --> F7[Age Group Analysis]
     
     style A fill:#e1f5fe
     style B fill:#f3e5f5
     style C fill:#e8f5e8
     style D fill:#fff3e0
     style E fill:#f3e5f5
+    style F fill:#e8eaf6
 ```
 
 ## 🎯 Learning Objectives
@@ -67,6 +78,16 @@ graph TD
 **Visual Results**:
 ![K-Means Clustering](Image_Segmentation/Images/Image_Segmentation_K_MeansClustering.png)
 ![Mean-Shift Clustering](Image_Segmentation/Images/Image_Segmentation_Mean_Shift_Clustering.png)
+
+### 🧠 ScalpEEG Brain Heatmaps
+Generation of Heatmaps using K-Means clustering for brain template segmentation and HFO activity visualization across developmental age groups.
+**Key Features:**
+- **Brain Template Segmentation**: K-Means clustering (k=4) for automatic removal of anatomical folds
+- **Region Parcellation**: K-Means clustering (k=5) for anatomical lobe definition
+- **HFO Activity Mapping**: Visualization of neural oscillation patterns across brain regions
+- **Developmental Analysis**: Comparative study across 5 age groups (1 month - 17 years)
+- **Interactive Visualization**: Animated heatmaps showing temporal changes
+![HFO Brain Heatmap Example](M5_Clustering/ScalpEEG_Brain_Heatmaps/Output/Norm_Across_Age_Groups/B_0_1monto2yrs_brain_regions_cmap_normalized_across_age_groups.png)
 
 ### 📊 Module_5_Project_1: Customer Segmentation
 **Domain**: Marketing & Business Analytics
