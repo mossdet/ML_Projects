@@ -244,6 +244,9 @@ wandb/
 # !Images/*.png
 # !**/Images/*.png
 
+# Exception for specific brain regions PNG file
+!B_1_3to5yrs_brain_regions_cmap_normalized_across_age_groups.png
+
 # Temporary files
 *.tmp
 *.temp
