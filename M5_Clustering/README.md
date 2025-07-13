@@ -51,7 +51,7 @@ graph TD
     style F fill:#e8eaf6
 ```
 
-## 🎯 Learning Objectives
+## 🎯 Topics
 - **Unsupervised Learning**: Discover patterns without labeled data
 - **Clustering Algorithms**: Master various clustering techniques
 - **Cluster Evaluation**: Silhouette score, inertia, Davies-Bouldin index
@@ -59,25 +59,7 @@ graph TD
 - **Feature Engineering**: Preprocessing for clustering
 - **Domain Applications**: Apply clustering across different domains
 
-## 📁 Project Details
-
-### 🖼️ Image_Segmentation: Computer Vision Clustering
-**Domain**: Computer Vision & Image Processing
-**Objective**: Segment images into meaningful regions using clustering
-
-**Techniques Implemented**:
-- **K-Means Clustering**: Partition pixels into k clusters
-- **Mean-Shift Clustering**: Density-based segmentation
-
-**Applications**:
-- Object detection preprocessing
-- Medical image analysis
-- Artistic image processing
-- Background removal
-
-**Visual Results**:
-![K-Means Clustering](Image_Segmentation/Images/Image_Segmentation_K_MeansClustering.png)
-![Mean-Shift Clustering](Image_Segmentation/Images/Image_Segmentation_Mean_Shift_Clustering.png)
+## 📁 Projects
 
 ### 🧠 ScalpEEG Brain Heatmaps
 Generation of Heatmaps using K-Means clustering for brain template segmentation and HFO activity visualization across developmental age groups.
@@ -161,60 +143,4 @@ Generation of Heatmaps using K-Means clustering for brain template segmentation 
 - **Calinski-Harabasz Index**: Cluster separation ratio
 - **Adjusted Rand Index**: Clustering agreement measure
 - **Homogeneity & Completeness**: Cluster purity measures
-
-## 🛠️ Tools & Libraries
-
-- **Scikit-learn**: Primary clustering algorithms
-- **OpenCV**: Image processing for computer vision
-- **Pandas**: Data manipulation
-- **NumPy**: Numerical computing
-- **Matplotlib/Seaborn**: Visualization
-- **Plotly**: Interactive visualizations
-
-## 🚀 Getting Started
-
-1. **Navigate to any project directory**
-2. **Launch Jupyter Lab**:
-   ```bash
-   jupyter lab
-   ```
-3. **Open project notebooks** for detailed implementations
-4. **Explore clustering visualizations**
-5. **Experiment with different algorithms**
-
-## 💡 Best Practices Demonstrated
-
-- **Data Preprocessing**: Scaling, normalization for clustering
-- **Optimal Cluster Number**: Elbow method, silhouette analysis
-- **Feature Selection**: Relevant features for clustering
-- **Visualization**: 2D/3D cluster representation
-- **Evaluation**: Multiple metrics for cluster quality
-- **Interpretation**: Business meaning of discovered clusters
-
-## 📈 Workflow Process
-
-1. **Data Exploration**: Understand data structure and patterns
-2. **Preprocessing**: Scale and prepare data for clustering
-3. **Algorithm Selection**: Choose appropriate clustering method
-4. **Parameter Tuning**: Optimize cluster parameters
-5. **Clustering**: Apply algorithms to data
-6. **Evaluation**: Assess cluster quality
-7. **Visualization**: Create meaningful cluster representations
-8. **Interpretation**: Extract business insights
-9. **Validation**: Verify cluster stability and meaning
-
-## 🎨 Visualization Techniques
-
-- **2D/3D Scatter Plots**: Cluster visualization
-- **Heatmaps**: Feature importance in clusters
-- **Dendrograms**: Hierarchical cluster relationships
-- **Silhouette Plots**: Cluster quality assessment
-- **Parallel Coordinates**: Multi-dimensional cluster profiles
-
-## 🌟 Key Insights
-
-- **Pattern Discovery**: Uncover hidden data structures
-- **Segmentation**: Natural groupings in data
-- **Anomaly Detection**: Identify outliers and unusual patterns
-- **Dimensionality Understanding**: Reduce complexity while preserving information
-- **Business Intelligence**: Actionable insights from data groupings
+- **V-Measure**: Balance between homogeneity and completeness

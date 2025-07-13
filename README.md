@@ -97,18 +97,6 @@ Image segmentation using K-Means and Mean-Shift clustering algorithms.
 
 ![K-Means Clustering](M5_Clustering/Image_Segmentation/Images/Image_Segmentation_K_MeansClustering.png)
 ![Mean-Shift Clustering](M5_Clustering/Image_Segmentation/Images/Image_Segmentation_Mean_Shift_Clustering.png)
-
-#### 🧠 ScalpEEG Brain Heatmaps
-**Clustering-Based Analysis of High-Frequency Oscillations**
-
-Generation of Heatmaps using K-Means clustering for brain template segmentation and HFO activity visualization across developmental age groups.
-
-**Key Features:**
-- **Brain Template Segmentation**: K-Means clustering (k=4) for automatic removal of anatomical folds
-- **Region Parcellation**: K-Means clustering (k=5) for anatomical lobe definition
-- **HFO Activity Mapping**: Visualization of neural oscillation patterns across brain regions
-- **Developmental Analysis**: Comparative study across 5 age groups (1 month - 17 years)
-- **Interactive Visualization**: Animated heatmaps showing temporal changes
 ![HFO Brain Heatmap Example](M5_Clustering/ScalpEEG_Brain_Heatmaps/Output/Norm_Across_Age_Groups/B_1_3to5yrs_brain_regions_cmap_normalized_across_age_groups.png)
 
 ### 🎬 M6_Recommender_Systems
