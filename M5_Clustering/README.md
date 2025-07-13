@@ -69,7 +69,7 @@ Generation of Heatmaps using K-Means clustering for brain template segmentation 
 - **HFO Activity Mapping**: Visualization of neural oscillation patterns across brain regions
 - **Developmental Analysis**: Comparative study across 5 age groups (1 month - 17 years)
 - **Interactive Visualization**: Animated heatmaps showing temporal changes
-![HFO Brain Heatmap Example](M5_Clustering/ScalpEEG_Brain_Heatmaps/Output/Norm_Across_Age_Groups/B_0_1monto2yrs_brain_regions_cmap_normalized_across_age_groups.png)
+![HFO Brain Heatmap Example](M5_Clustering/ScalpEEG_Brain_Heatmaps/Output/Norm_Across_Age_Groups/B_1_3to5yrs_brain_regions_cmap_normalized_across_age_groups.png)
 
 ### 📊 Module_5_Project_1: Customer Segmentation
 **Domain**: Marketing & Business Analytics

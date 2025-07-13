@@ -97,7 +97,7 @@ Image segmentation using K-Means and Mean-Shift clustering algorithms.
 
 ![K-Means Clustering](M5_Clustering/Image_Segmentation/Images/Image_Segmentation_K_MeansClustering.png)
 ![Mean-Shift Clustering](M5_Clustering/Image_Segmentation/Images/Image_Segmentation_Mean_Shift_Clustering.png)
-![HFO Brain Heatmap Example](M5_Clustering/ScalpEEG_Brain_Heatmaps/Output/Norm_Across_Age_Groups/B_1_3to5yrs_brain_regions_cmap_normalized_across_age_groups.png)
+<img src="M5_Clustering/ScalpEEG_Brain_Heatmaps/Output/Norm_Across_Age_Groups/B_1_3to5yrs_brain_regions_cmap_normalized_across_age_groups.png" alt="HFO Brain Heatmap Example" width="600">
 
 ### 🎬 M6_Recommender_Systems
 **Recommendation Algorithms**
