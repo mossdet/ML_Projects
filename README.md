@@ -1,30 +1,25 @@
-# 🧠 Machine Learning Projects Portfolio
+# 🧠 Machine Learning Portfolio
 
-This repo collects problems solved using different ml models. it serves as a reference for myself and I'm happy if anybody else also finds it helpful.
+This repo collects machine learning solutions to a variety of problems. I keep it as a reference for myself and I'm happy if anybody else also finds it helpful.
 
-## 📁 Overview 
+## 📖 Table of Contents
+- [🐍 M1_Python](M1_Python/)
+- [📊 M2_DataAnalysis](M2_DataAnalysis)
+- [🎯 M3_Classification](M3_Classification/)
+- [📈 M4_Regression](M4_Regression/)
+- [🎨 M5_Clustering](M5_Clustering/)
+- [🎬 M6_Recommender_Systems](M6_Recommender_Systems/)
+- [🧠 M7_ANN](M7_ANN/)
+- [🖼️ M8_CNN](M8_CNN/)
+- [🔄 M8_RNN](M8_RNN/)
+- [🤖 M9_LLM](M9_LLM/)
+- [🔍 Interpretable_ML](Interpretable_ML/)
 
-```
-ML_Projects/
-├── M1_Python/                    # Python fundamentals & basic projects
-├── M2_DataAnalysis/              # Data analysis and visualization
-├── M3_Classification/            # Classification algorithms
-├── M4_Regression/                # Regression models
-├── M5_Clustering/                # Clustering techniques
-├── M6_Recommender_Systems/       # Recommendation algorithms
-├── M7_ANN/                       # Artificial Neural Networks
-├── M8_CNN/                       # Convolutional Neural Networks
-├── M8_RNN/                       # Recurrent Neural Networks
-├── M9_LLM/                       # Large Language Models & Transformers
-└── Interpretable_ML/             # Model interpretability
-```
 
 ## 🚀 Getting Started
-
 ### Prerequisites
 - Python 3.10 or 3.11
 - Poetry (for dependency management)
-
 ### Installation
 ```bash
 # Clone the repository
@@ -98,7 +93,7 @@ Comprehensive housing price prediction with detailed feature analysis.
 **Clustering Techniques**
 
 #### 🖼️ Image Segmentation
-Advanced image segmentation using K-Means and Mean-Shift clustering algorithms.
+Image segmentation using K-Means and Mean-Shift clustering algorithms.
 
 ![K-Means Clustering](M5_Clustering/Image_Segmentation/Images/Image_Segmentation_K_MeansClustering.png)
 ![Mean-Shift Clustering](M5_Clustering/Image_Segmentation/Images/Image_Segmentation_Mean_Shift_Clustering.png)
