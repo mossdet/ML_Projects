@@ -1,13 +1,14 @@
 """
-ScalpEEG Brain Heatmaps: Object-Oriented Analysis Framework
+ScalpEEG Brain Heatmaps
 
-This module provides a comprehensive framework for analyzing High-Frequency Oscillations (HFO) 
+This module provides a framework for analyzing High-Frequency Oscillations (HFO) 
 in scalp EEG data using K-Means clustering for brain template segmentation and visualization.
 
 Classes:
     BrainHeatmapAnalyzer: Main class for brain template processing and HFO analysis
     
-Author: ML_Projects Team
+Author: Daniel Lachner Piza
+E-Mail: dalapiz@proton.me
 Date: July 2025
 """
 
@@ -27,7 +28,7 @@ from matplotlib import cm
 
 class BrainHeatmapAnalyzer:
     """
-    A comprehensive class for analyzing HFO patterns in scalp EEG data using clustering-based 
+    A class for analyzing HFO patterns in scalp EEG data using clustering-based 
     brain template segmentation and visualization.
     
     This class provides methods for:
